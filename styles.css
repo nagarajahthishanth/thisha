@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.circle-img {
+  width: 150px;      /* Set the width of the image */
+  height: 150px;     /* Set the height of the image to make it square */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits inside the circle */
+  border: 3px solid #ccc; /* Optional: Add a border around the circle */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+.whatsapp-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+/* Table cells */
+
+
+/* Image cell */
+
+
+/* Styling for the image */
+.achievement-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px; /* Makes the image circular */
+  object-fit: cover;
+  border: 3px solid #ccc; /* Optional: Adds a border around the image */
+}
+
+
+
+
+
+footer p {
+  font-size: 1em;
+}
+
+#skills ul,
+#projects ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 2em;
+  }
+}
